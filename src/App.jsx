@@ -45,7 +45,7 @@ function App() {
       <TodoProvider
         value={{ todos, addTodo, updateTodo, deleteTodo, togllecomplte }}
       >
-        <div className="bg-[#25122b] min-h-screen py-10">
+        <div className="bg-[#25122b] min-h-screen py-10" >
           <div className="w-full max-w-5xl mx-auto shadow-lg rounded-lg px-4 py-3 text-white">
             <h1 className="text-2xl font-bold text-center mb-8 mt-2">
               Add And Manage Your Todos
